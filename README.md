@@ -2,6 +2,11 @@
 
 A product analytics project using the **Synerise RecSys Challenge 2025** e-commerce behavioral dataset to investigate customer purchase behavior, cart-to-purchase progression, retention, behavioral segments, and product opportunities.
 
+## Project Links
+
+- **Full Analysis:** [View the Jupyter Notebook](ecommerce_product_analytics.ipynb)
+- **Dataset:** [Synerise RecSys Challenge 2025](https://recsys.synerise.com/data-set)
+
 ## Project Overview
 
 The project analyzes large-scale anonymized e-commerce behavioral data to answer four core product questions:
@@ -15,20 +20,23 @@ The analysis combines customer behavior, funnel analysis, cohort retention, beha
 
 ## Dataset
 
-Source: **Synerise RecSys Challenge 2025**
+This project uses the **Synerise RecSys Challenge 2025** anonymized e-commerce behavioral dataset.
 
-The raw dataset contains more than **170 million behavioral events** across:
+The raw dataset is **not included in this repository**. It can be accessed from:
 
-- add-to-cart events
-- purchase events
-- remove-from-cart events
-- page visits
-- search queries
-- product metadata
+- **Official source:** [Synerise RecSys Challenge 2025 — Dataset](https://recsys.synerise.com/data-set)
+- **Kaggle dataset used for this notebook:** [RecSys25 Synerise Challenge by `duuuscha`](https://www.kaggle.com/datasets/duuuscha/recsys25-synerise-challenge)
 
-The main product analysis focuses on purchase events, add-to-cart events, product metadata, customer-SKU behavior, and weekly purchase activity.
+The analysis was executed in a Kaggle Notebook using the Kaggle-hosted copy of the dataset.
 
-Raw data is **not included in this repository**.
+The dataset contains behavioral events including:
+
+- purchases,
+- add-to-cart events,
+- remove-from-cart events,
+- page visits,
+- search queries,
+- and product metadata.
 
 ## Key Methodological Decisions
 
