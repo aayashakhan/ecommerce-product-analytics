@@ -123,14 +123,43 @@ These are product hypotheses derived from observational evidence and would requi
 
 ## Visual Highlights
 
-The project includes:
+### Customer Behavioral Segmentation
 
-- customer behavioral segmentation
-- cart-to-later-same-SKU progression
-- category cart-volume vs conversion opportunity analysis
-- weekly cohort retention heatmap
-- returning-customer behavioral comparison
+The customer base is dominated by single-occasion, single-product behavior, while returning multi-product customers form the largest deeper-engagement segment.
 
+![Customer Behavioral Segments](images/behavioral_segments.png)
+
+---
+
+### Cart-to-Later-Same-SKU Purchase Outcome
+
+Only **20.06%** of unique customer-SKU cart pairs were followed by a later observed purchase of the same SKU.
+
+![Cart-to-Later-Same-SKU Purchase Outcome](images/cart_conversion.png)
+
+---
+
+### Category-Level Conversion Opportunity
+
+High-volume categories show substantial variation in cart-to-purchase progression. Categories below the overall benchmark can be prioritized using both conversion weakness and cart volume.
+
+![Category Conversion Opportunity](images/category_opportunity.png)
+
+---
+
+### Weekly Cohort Retention
+
+Weekly purchasing activity declines most sharply early in the post-purchase lifecycle before stabilizing at a smaller recurring base.
+
+![Weekly Cohort Retention](images/cohort_retention.png)
+
+---
+
+### Returning-Customer Behavioral Depth
+
+Returning multi-product customers had a substantially longer observed purchasing relationship than returning single-product customers.
+
+![Returning Customer Purchase Span](images/returning_customer_span.png)
 ## Tools Used
 
 - Python
